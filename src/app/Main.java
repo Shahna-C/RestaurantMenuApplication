@@ -17,7 +17,7 @@ package app;
 			final String connectionStr = "jdbc:mysql://127.0.0.1:3306/restaurantDB";
 
 			try {
-				conn = DriverManager.getConnection(connectionStr, "root", "Dance4Eva45$hu^a");
+				conn = DriverManager.getConnection(connectionStr, "root", "");
 				System.out.println("Succesfully connected!");
 
 			} catch (SQLException e) {
